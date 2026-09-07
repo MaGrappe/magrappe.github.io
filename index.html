@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MaGrappe — Assistance</title>
+    <style>
+      :root {
+        --wine: #6d2435;
+        --ink: #1c1c1e;
+        --muted: #6e6e73;
+        --soft: #f5f3f1;
+        --line: #e5e5ea;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: 0 20px 80px;
+        background: var(--soft);
+        color: var(--ink);
+        font: 17px/1.6 -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,
+          sans-serif;
+        -webkit-text-size-adjust: 100%;
+      }
+
+      main {
+        max-width: 680px;
+        margin: 0 auto;
+      }
+
+      header {
+        padding: 56px 0 32px;
+        border-bottom: 1px solid var(--line);
+        margin-bottom: 36px;
+      }
+
+      .eyebrow {
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 2px;
+        color: var(--wine);
+        margin: 0 0 6px;
+      }
+
+      h1 {
+        font-size: 34px;
+        font-weight: 800;
+        line-height: 1.2;
+        margin: 0 0 10px;
+      }
+
+      h2 {
+        font-size: 21px;
+        font-weight: 800;
+        margin: 40px 0 12px;
+      }
+
+      h3 {
+        font-size: 17px;
+        font-weight: 700;
+        margin: 26px 0 8px;
+      }
+
+      .lede,
+      .updated {
+        color: var(--muted);
+      }
+
+      .updated {
+        font-size: 14px;
+        margin: 0;
+      }
+
+      ul {
+        padding-left: 22px;
+      }
+
+      li {
+        margin-bottom: 8px;
+      }
+
+      a {
+        color: var(--wine);
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 18px 0;
+        font-size: 15px;
+      }
+
+      th,
+      td {
+        text-align: left;
+        padding: 10px 12px;
+        border-bottom: 1px solid var(--line);
+        vertical-align: top;
+      }
+
+      th {
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 1px;
+        color: var(--wine);
+        text-transform: uppercase;
+      }
+
+      .card {
+        background: #fff;
+        border-radius: 18px;
+        padding: 20px 22px;
+        margin: 22px 0;
+      }
+
+      .card p:last-child {
+        margin-bottom: 0;
+      }
+
+      footer {
+        margin-top: 56px;
+        padding-top: 24px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      @media (max-width: 480px) {
+        h1 {
+          font-size: 28px;
+        }
+        header {
+          padding-top: 36px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <p class="eyebrow">MAGRAPPE</p>
+        <h1>Assistance</h1>
+        <p class="updated">Carnet de dégustation et cave, pour iPhone</p>
+      </header>
+
+      <p class="lede">
+        Une question, un problème, une idée ? Écrivez à
+        <a href="mailto:magrappe@pm.me">magrappe@pm.me</a>. Je lis chaque message, et j'y
+        réponds.
+      </p>
+
+      <h2>Questions fréquentes</h2>
+
+      <h3>Comment supprimer mon compte ?</h3>
+      <p>
+        Dans l'application : <strong>Profil → Supprimer mon compte</strong>. Deux confirmations
+        vous sont demandées, puis tout est effacé — profil, dégustations, photos, commentaires,
+        cave, abonnements. C'est immédiat et irréversible ; aucune demande par e-mail n'est
+        nécessaire.
+      </p>
+
+      <h3>Comment signaler ou bloquer quelqu'un ?</h3>
+      <p>
+        Sur une dégustation ou un commentaire, touchez le bouton <strong>⋯</strong> ; sur un
+        profil, utilisez <strong>Signaler</strong> ou <strong>Bloquer</strong> sous le bouton
+        d'abonnement. Un blocage est réciproque : vous ne verrez plus rien l'un de l'autre, ni
+        dégustations, ni commentaires, ni profil. Vous pouvez revenir dessus à tout moment depuis
+        <strong>Profil → Personnes bloquées</strong>.
+      </p>
+      <p>
+        Les signalements sont examinés sous vingt-quatre heures. Le contenu signalé est conservé le
+        temps de l'examen, même si son auteur l'efface entre-temps.
+      </p>
+
+      <h3>Qui voit mes dégustations ?</h3>
+      <p>
+        Vous choisissez à chaque fois : publique, réservée à un groupe, ou strictement privée. Votre
+        cave, elle, n'est jamais visible par personne d'autre que vous.
+      </p>
+
+      <h3>J'ai oublié mon mot de passe</h3>
+      <p>
+        Sur l'écran de connexion, touchez <strong>Mot de passe oublié ?</strong>. Un code à six
+        chiffres vous est envoyé par e-mail ; vous le saisissez dans l'application et choisissez
+        aussitôt un nouveau mot de passe. Si vous vous connectez avec Apple, vous n'avez pas de mot
+        de passe à retenir.
+      </p>
+
+      <h3>Je ne reçois pas les notifications</h3>
+      <p>
+        Vérifiez que vous les avez autorisées dans <strong>Réglages → MaGrappe →
+        Notifications</strong> sur votre iPhone. MaGrappe n'envoie de notification que lorsque
+        quelqu'un commente une de vos dégustations — jamais de message promotionnel.
+      </p>
+
+      <h3>Un vin est introuvable dans la recherche</h3>
+      <p>
+        Vous pouvez toujours le saisir à la main : renseignez le nom, le producteur et le millésime,
+        et la dégustation s'enregistre normalement.
+      </p>
+
+      <div class="card">
+        <p>
+          <strong>Contact :</strong> <a href="mailto:magrappe@pm.me">magrappe@pm.me</a><br />
+          Éditeur : Simon Lambert
+        </p>
+      </div>
+
+      <footer>
+        <p>
+          MaGrappe — Simon Lambert ·
+          <a href="confidentialite.html">Politique de confidentialité</a>
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>
